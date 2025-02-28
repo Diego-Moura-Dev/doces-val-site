@@ -94,6 +94,7 @@
   align-items: center; /* Centraliza os elementos horizontalmente */
   justify-content: center; /* Centraliza verticalmente */
   margin: auto;
+  max-width: 70%;
 }
 
 .cards {
