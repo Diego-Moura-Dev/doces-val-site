@@ -24,12 +24,12 @@
 }
 
 .menu > .item-menu {
-  margin-right: 30px;
   color: #f263c0;
   font-weight: 500;
   font-size: 17px;
   background-color: #40011e;
   margin-bottom: 30px;
+  padding: 20px;
 }
 
 #btn-contato {
@@ -38,6 +38,7 @@
   border-radius: 7px;
   text-decoration: none;
   padding: 5px 20px;
+  text-align: center;
 }
 
 #btn-contato:hover {
@@ -93,8 +94,6 @@
   align-items: center; /* Centraliza os elementos horizontalmente */
   justify-content: center; /* Centraliza verticalmente */
   margin: auto;
-  width: 50%;
-  margin: auto;
 }
 
 .cards {
@@ -104,7 +103,7 @@
   justify-content: center; /* Centraliza verticalmente */
   width: 100%;
   max-width: 300px; /* Ajuste conforme necessário */
-  margin: 20px auto; /* Centraliza o card na página */
+  margin: 10px auto; /* Centraliza o card na página */
   padding: 20px;
   background: #fff;
   border-radius: 10px;
@@ -197,15 +196,13 @@ footer {
   .logo {
     padding-left: 20px;
   }
-  .banner {
-    display: block; /* Altera para bloco (empilha os elementos) */
-    text-align: center; /* Centraliza os itens */
-    margin: auto;
-  }
   .cabcalho {
-    display: block;
-    padding: 25px;
-    text-align: center; /* Centraliza os itens */
+    display: flex;
+    padding: 5px;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 1px solid #f263c0;
+    background-color: #40011e;
   }
   .menu {
     display: block;
@@ -213,7 +210,19 @@ footer {
     align-items: center;
     margin: auto;
   }
-
+  .menu > .item-menu {
+    display: block;
+    align-items: center;
+    margin: 10px;
+  }
+  .banner {
+    display: block; /* Altera para bloco (empilha os elementos) */
+    text-align: center; /* Centraliza os itens */
+    margin: auto;
+  }
+  .confeiteira {
+    max-width: 300px;
+  }
   .informacao {
     display: block; /* Altera para bloco (empilha os elementos) */
     text-align: center; /* Centraliza os itens */
@@ -225,28 +234,10 @@ footer {
     margin: auto;
   }
 
-  .menu > .item-menu {
-    display: block;
-    align-items: center;
-    margin: 10px;
-  }
-
-  .cabcalho {
-    display: flex;
-    padding: 5px;
-    justify-content: start;
-    align-items: center;
-    border-bottom: 1px solid #f263c0;
-    background-color: #40011e;
-  }
   .container {
     display: block;
     align-items: center; /* Centraliza os elementos horizontalmente */
     justify-content: center; /* Centraliza verticalmente */
     margin: auto;
-  }
-
-  .cards {
-    min-width: 300px; /* Ajuste conforme necessário */
   }
 }
